@@ -1,0 +1,65 @@
+body {background-image: url("../images/image5.jpg");}
+#produit{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #produit td, #produit th {
+    border: 1px solid gray;
+    padding: 8px;
+  }
+  #produit tr:nth-child(even){background-color: #f2f2f2;}
+  #produit  tr:hover {background-color: #ddd;}
+  
+  #produit  th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:plum;
+    color: white;
+  }
+  
+  h1,h2{
+      color:whitesmoke;
+      text-align-last: center;
+      background-color:palevioletred;
+    }
+  #img{
+      width:250px;
+      border: 5px solid purple;
+      border-radius: 6px;
+      padding: 10px;
+      box-shadow: palevioletred;
+      width: 200px;
+  }
+  p{
+      color:white;
+  }
+  li{
+      list-style: none;
+      display: inline-block;
+      color: darkgreen;
+  }
+  header,article{
+      border: 1px solid white;
+      margin-top: 2px;
+      padding: 10px;
+  }
+  header{
+      background-image: url("../images/01jpg.jpg");
+  }
+  nav{
+      color: #f2f2f2;
+  }
+  div{
+      padding: 200px;
+      border: 2px solid white;
+  }
+  #prods{
+      display:flex;
+      flex-wrap: wrap;
+  }
+  .prod{
+      text-align:center;
+  }
