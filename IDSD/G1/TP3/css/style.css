@@ -1,58 +1,56 @@
-body {background-image: url("../images/image5.jpg");}
-#produit{
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-  #produit td, #produit th {
-    border: 1px solid gray;
-    padding: 8px;
-  }
-  #produit tr:nth-child(even){background-color: #f2f2f2;}
-  #produit  tr:hover {background-color: #ddd;}
-  
-  #produit  th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color:plum;
-    color: white;
-  }
-  
-  h1,h2{
-      color:whitesmoke;
-      text-align-last: center;
-      background-color:palevioletred;
-    }
-  .img{
-      width:250px;
-      border: 5px solid purple;
-      border-radius: 6px;
-      padding: 10px;
-      box-shadow: palevioletred;
-      width: 200px
-  }
-  p{
-      color:white;
-  }
-  li{
-      list-style: none;
-      display: inline-block;
-      color: darkgreen;
-  }
-  header,article{
-      border: 1px solid white;
-      margin-top: 2px;
-      padding: 10px;
-  }
-  header{
-      background-image: url("../images/01jpg.jpg");
-  }
-  nav{
-      color: #f2f2f2;
-  }
-  div{
-      padding: 200px;
-      border: 2px solid white;
-  }
+body {
+    background-image: url(https://media.istockphoto.com/photos/spring-background-blue-forgetmenot-flowers-on-pastel-background-copy-picture-id958502944);
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+  background-color: aqua;
+}
+td{
+    color: purple;
+}
+th{
+    color:rgb(233, 2, 156);
+}
+h1{
+    color: pink;
+    background-color: cadetblue;
+
+}
+h2{
+    color: red;
+    background-color:palevioletred ;
+
+}
+#div1{
+    border:2px solid blue;
+    background-color: pink;
+}
+#p1{
+    color: green;
+}
+#p2{
+    color: black;
+}
+.imge{
+    border: 5px solid purple;
+    box-shadow: rosybrown;
+
+}
+#div2{
+    background-color: pink;
+}
+li{
+    padding-right: 15px;
+}
+ul{
+    float: right;
+    color: rgb(19, 6, 8);
+
+}
