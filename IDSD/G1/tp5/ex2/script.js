@@ -1,0 +1,12 @@
+var a="1";
+var b="2";
+var c=a+b;
+console.log("la valeur de a :",a,"le type de a est : ",typeof(a));
+console.log("la valeur de a :",b,"le type de a est : ",typeof(b));
+console.log("la valeur de a :",c,"le type de a est : ",typeof(c));
+a=parseInt(a);
+b=parseInt(b);
+c=parseInt(c);
+console.log("la valeur de a :",a,"le type de a est : ",typeof(a));
+console.log("la valeur de a :",b,"le type de a est : ",typeof(b));
+console.log("la valeur de a :",c,"le type de a est : ",typeof(c));
